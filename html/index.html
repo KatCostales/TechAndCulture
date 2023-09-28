@@ -1,0 +1,73 @@
+<!-- Develop a Webpage to show your editorials -->
+<!-- Resources: https://www.w3schools.com/jsref/tryit.asp?filename=tryjsref_onclick_html-->
+
+<!-- Kat's Code -->
+<!-- Top Menu Bar-->
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Editorials: Tech and Culture in the UK</title>
+    <link href="../styles/index.css" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+</head>
+
+<body>
+    <nav>
+
+        <ul>
+            <li class="editorial"><a href="../html/index.html" alt="logo"><b>TECH AND CULTURE IN THE UK</b> </a></li>
+            <li><a href="#">EDITORIALS</a>
+            </li>
+            <ul>
+                <li><a href="#">ARTICLES</a>
+                <li><a href="../html/katsArticle.html">FOOD TRENDS</a></li> <!-- Links to articles-->
+                <li><a href="../html/lexsArticle.html">LEXS ARTICLE NAME</a></li>
+            </ul>
+
+            </li>
+        </ul>
+    </nav>
+
+    <div class="fadeIn">
+        <img src="../images/benjaminDavies.jpg" class="webpageImage">
+    </div>
+
+    <div class="lineUp">
+        <h1 class="melodyPhrase">Transcribe</h1>
+        <section class="melodyPhrase">
+            <p style="margin-left: 10%;">play...</p>
+            <p style="margin-left: 30%;">transcribe...</p>
+            <p style="margin-left: 50%;">compose...</p>
+        </section>
+
+        <div class="fadeIn">
+            <img src="../images/websiteImages/Grey Aesthetic Music Mood Instagram Post.png" alt="musicImage"
+                width="100%" height="auto">
+        </div>
+
+</body>
+
+</html>
+
+<!-- Lex's code -->
+<h1>Editorial Responses</h1>
+<h2>How to make button do thing</h2>
+
+<p id="demo" onclick="switchEditorial()">Button to switch pictures and change text</p>
+
+
+<!--Go ahead and leave this spot alone (the script) for right now, Kat. This is for me to have a backbone-->
+<!--for using your button to change some of the components on the site. Build-->
+<!--the general design for the website and I will work your code functionality into the script-->
+
+<script>
+    function switchEditorial() {
+        document.getElementById("demo").innerHTML = "TEXT CHANGED AHHHHH";
+    }
+</script>
+
+</body>
+
+</html>
