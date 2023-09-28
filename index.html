@@ -1,87 +1,21 @@
 <!-- Develop a Webpage to show your editorials -->
+<!-- Resources: https://www.w3schools.com/jsref/tryit.asp?filename=tryjsref_onclick_html-->
 
-<!DOCTYPE html>
-<html>
+<h1>Editorial Responses</h1>
+<h2>How to make button do thing</h2>
 
-<head>
-    <title>Editorials</title>
-    <link href="../css/index.css" rel="stylesheet">
-    <meta charset="utf-8">
-</head>
-
-<body>
-    <nav>
-        <ul>
-            <li><a href="../html/index.html"><img src="../imagespng" alt="logo" height="100px"></a>
-            </li>
-            <li><input type="text" placeholder=" Search"></li>
-
-            <li><a href="../html/about.html">EDITORIALS</a>
-                <ul>
-                    <li><a href="../html/about.html#mission">LEX</a></li>
-                    <li><a href="../html/about.html#mission">KAT</a></li>
-                </ul>
-            </li>
-
-            <li><a href="../html/shop.html">ARTICLES</a>
-                <ul>
-                    <li><a href="../html/about.html#mission">LEX</a></li>
-                    <li><a href="../html/about.html#mission">KAT</a></li>
-                    <li><a href="../html/contact.html">CONTACT</a>
-                </ul>
-            </li>
-        </ul>
-    </nav>
-
-    <a id="mission">
-        <section id="mission">
-    </a>
+<p id="demo" onclick="switchEditorial()">Button to switch pictures and change text</p>
 
 
-    <h1 class="lineUp">Our Mission Statement</h1>
-    <p class="lineUp">We want to create a unique shopping experience while remaining sustainable. We
-        commit to sustainable practices and high quality clothes.
-        Fashion production makes up 10% of humanity's carbon emissions, dries up water sources, and pollutes rivers and
-        streams. What's more, 85% of all textiles go to the dump each year (UNECE, 2018), and washing some types of
-        clothes sends significant amount of microplastics into the ocean.
-        Our mission is to spread awareness while minmizing the harmful affects of the fast fasion industry by
-        reinvesting, recycling, and repurposing materials.
-    </p>
-    </section>
-    <div class="lineUp">
-        <img src="../images/fashionHarm.jpg" class="webpageImage" alt="Rio Lecatompessy Harmful fashion Industry Image">
-    </div>
-    <a id="ourstory">
-        <section id="ourstory">
-    </a>
-    <h1 class="lineUp"> Story</h1>
-    <p class="lineUp">As a contribution of GP1, GP2, and GP3 expertise, we were able to cultivate this idea through
-        shared collaboration and ideas from Whitworth's Internet Application Development's course. Through html, css,
-        and javascript code, we are able to visually portray appealing clothing lines that would hopefully entice
-        customers to support our mission statement.</p>
-    </section>
+<!--Go ahead and leave this spot alone (the script) for right now, Kat. This is for me to have a backbone-->
+<!--for using your button to change some of the components on the site. Build-->
+<!--the general design for the website and I will work your code functionality into the script-->
 
-    <a id="creators">
-        <section id="creators">
-    </a>
-    <h1 class="lineUp">Creators</h1>
-    <p>
-    <ul>
-        <li>
-            <p class="lineUp">Kat, Ethan, Sophie, Noah</p>
-        </li>
-        <li>
-            <p class="lineUp">Group 3 Kalguksoo</p>
-        </li>
-    </ul>
-    </p>
-    </section>
+<script>
+function switchEditorial() {
+  document.getElementById("demo").innerHTML = "TEXT CHANGED AHHHHH";
+}
+</script>
 
 </body>
-<section>
-
-</section>
-</body>
-
-
 </html>
